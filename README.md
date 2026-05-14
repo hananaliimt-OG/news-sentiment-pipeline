@@ -130,7 +130,4 @@ Sensitive credentials and API keys are managed using environment variables and a
 
 ---
 
-# 👨‍💻 Author
 
-Built by Hanan Ali  
-Cloud Data Analytics & MLOps Enthusiast
