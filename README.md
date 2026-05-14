@@ -1,4 +1,4 @@
-# 📰 News Sentiment Pipeline
+#  News Sentiment Pipeline
 
 A real-time cloud-based news sentiment analysis pipeline built using AWS and Python.
 
@@ -6,7 +6,7 @@ This project automatically collects news articles, performs sentiment analysis, 
 
 ---
 
-# 🚀 Project Overview
+# Project Overview
 
 The pipeline performs the following workflow automatically:
 
@@ -21,7 +21,7 @@ The pipeline performs the following workflow automatically:
 
 ---
 
-# 🏗️ Architecture
+#  Architecture
 
 News API  
 ↓  
@@ -39,7 +39,7 @@ Amazon ECS Fargate
 
 ---
 
-# ⚙️ Technologies Used
+#  Technologies Used
 
 ## Cloud Services
 - AWS Lambda
@@ -66,7 +66,7 @@ Amazon ECS Fargate
 
 ---
 
-# 📊 Dashboard Features
+#  Dashboard Features
 
 - Live sentiment monitoring
 - Positive / Negative / Neutral classification
@@ -77,7 +77,7 @@ Amazon ECS Fargate
 
 ---
 
-# 🔄 Automation Flow
+# Automation Flow
 
 EventBridge automatically triggers the AWS Lambda function every 5 minutes.
 
@@ -91,13 +91,13 @@ The Streamlit dashboard then visualizes the updated data in real time.
 
 ---
 
-# 🐳 Docker Deployment
+# Docker Deployment
 
 The Streamlit application was containerized using Docker and deployed to Amazon ECS Fargate for scalable cloud hosting.
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```bash
 news-sentiment-pipeline/
@@ -113,13 +113,13 @@ news-sentiment-pipeline/
 
 ---
 
-# 🔐 Security
+#  Security
 
 Sensitive credentials and API keys are managed using environment variables and are excluded from GitHub using `.gitignore`.
 
 ---
 
-# 📌 Future Improvements
+#  Future Improvements
 
 - Add advanced NLP models
 - Implement Kafka streaming
