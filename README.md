@@ -1,5 +1,18 @@
 #  News Sentiment Pipeline
 
+
+
+
+
+
+
+
+
+<img width="2404" height="1094" alt="20260402_105043" src="https://github.com/user-attachments/assets/85d8db6b-eadb-450e-928d-bef6b8584b42" />
+
+
+
+
 A real-time cloud-based news sentiment analysis pipeline built using AWS and Python.
 
 This project automatically collects news articles, performs sentiment analysis, stores processed data in cloud storage and databases, and visualizes insights through a live Streamlit dashboard deployed using Docker and Amazon ECS.
